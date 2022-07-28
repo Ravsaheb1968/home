@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SK Transport</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url("banner2.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+        }
+
+        .left,
+        img {
+            position: absolute;
+            width: 110px;
+            display: inline-block;
+            backface-visibility: hidden;
+        }
+
+
+        .left p {
+            position: absolute;
+            color: wheat;
+            text-align-last: left;
+            padding-left: 11px;
+        }
+
+        .mid {
+            color: rgb(249, 6, 6);
+            position: absolute;
+            display: block;
+            top: px;
+            width: 47%;
+            margin: 20 px auto;
+            left: 416px;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding:36px;
+            color: orangered;
+             
+        }
+
+        .mid a {
+            color: orangered;
+            text-decoration-line: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .right {
+            color: red;
+            position: absolute;
+            display: inline-block;
+            left: 1250px;
+            top: 18px;
+            padding: 65px;
+            margin: -37px;
+        }
+
+        .right button {
+            border: 2px solid rgb(193, 179, 171);
+            background-color: hwb(23 88% 7% / 0.275);
+            border-radius: 8%;
+            margin: 0%;
+        }
+
+
+        .para1 h2 {
+            top: 943px;
+            color: rgb(131, 104, 147);
+            position: absolute;
+            display: block;
+            padding-left: 228px;
+            padding-right: 145px;
+            margin: 25px;
+        }
+
+        .p1 p {
+            top: 1017px;
+            color: rgb(131, 104, 147);
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 201px;
+            font-size: 18px;
+        }
+
+        .p2 p {
+            top: 1105px;
+            color: rgb(131, 104, 147);
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 200px;
+            font-size: 18px;
+        }
+
+        .p3 p {
+            top: 1201px;
+            color: rgb(131, 104, 147);
+            position: absolute;
+            display: inline-block;
+            padding-left: 252px;
+            padding-right: 203px;
+            font-size: 18px;
+        }
+
+        .p4 p {
+            top: 1297px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .p5 p {
+            top: 1377px;
+            color: rgb(131, 104, 147);
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 201px;
+            font-size: 18px;
+        }
+
+        /* form {
+            padding-left: 248px;
+
+        } */
+
+        /* fieldset {
+            position: absolute;
+            display: block;
+            top: 200px;
+            padding-left: 48px;
+            padding-right: 70px;
+            padding-bottom: 53px;
+            padding-top: 30px;
+            border-radius: 5%;
+            border-color: gray;
+
+
+        } */
+
+        .btn {
+            border-radius: 0%;
+            background-color: rgb(75, 75, 170);
+            color: white;
+            width: 115%;
+
+        }
+
+        /* .form1 input {
+            background-color: rgb(84, 86, 87);
+            border: 2px solid;
+            width: 110%;
+            height: 18px;
+        } */
+
+        h4 {
+            padding-top: 30px;
+        }
+
+        /* .form1 a {
+            color: rgb(6, 144, 23);
+        } */
+
+        /* .form1 h1 {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        } */
+
+        .p6 h2 {
+            top: 1469px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .p6 p {
+            top: 1498px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .p7 h2 {
+            top: 1660px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .p7 p {
+            top: 1690px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .p8 h2 {
+            top: 1769px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .p8 p {
+            top: 1794px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .p9 h2 {
+            top: 1851px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .p9 p {
+            top: 1878px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .p10 h2 {
+            top: 1978px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .p10 p {
+            top: 2006px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+            color: rgb(131, 104, 147);
+        }
+
+        .footer {
+            top: 2122px;
+            position: absolute;
+            display: inline-block;
+            /* padding-left: 251px;
+            padding-right: 203px; */
+            background-color: rgb(111, 64, 147);
+            /* margin:160px;
+            padding:12%; */
+            width:100%;
+            height:90%;
+            padding-left:0%;
+            padding-right:0%;
+
+
+        }
+
+        .f1 h2{
+            top:20px;
+            position: absolute;
+            display: inline-block;
+            font-size: 18px;
+            padding-left: 251px;
+            padding-right: 203px;
+        }
+            
+             
+
+        
+        .f1 p {
+            top:47px; 
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right:609px;
+            font-size: 18px;
+        }
+
+         
+
+
+        .f2 h2 {
+            top:193px; 
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px; 
+        } 
+
+         
+        .f2 p{
+            top:219px;
+            position: absolute;
+            display: inline-block;
+            padding-left: 251px;
+            padding-right: 203px;
+            font-size: 18px;
+        }
+
+        .fh h2{
+            top:335px; 
+            position: absolute;
+            display: inline-block;
+            padding-left:697px;
+        }
+    
+
+        .f3{
+             
+            position: absolute;
+            display: inline-block;
+            top:371px;
+            margin: 20 px auto;
+            left:267px;
+        }
+        .navbar1 li{
+            display:  inline-block;
+            padding:36px;
+            font-size: 18px;
+             
+             
+        }
+        .f4{
+            top:474px;
+            position:absolute;
+            display: inline-block;
+            left:590px;
+        }
+
+        .navbar2 li{
+            display: inline-block;
+            padding:8px;
+            
+             
+        }
+        .f5 span{
+            top:568px;
+            position: absolute;
+            display: inline-block;
+            padding-left:659px;
+            padding-right: 203px;
+            font-size: 18px;
+        } 
+        h1
+        {
+            position: absolute;
+            display: inline-block;
+            left:988px;
+            top:358px;
+            text-shadow: 30px;
+        }
+         
+        h3{
+            position: absolute;
+            display: inline-block;
+            left:215px;
+            top:176px;
+            color:green;
+            font-size:32px;
+            width:27%;
+        }
+        .Gform_btn button
+        {
+            position: absolute;
+            display: inline-block;
+            left:215px;
+            top:325px;
+            width:26%;
+            padding:8px;
+            background-color: orangered;
+            color:white;
+            border:1px solid white;
+            font-size:20px;
+            border-radius: 8px;
+        }
+        .Gform_btn a{
+            text-decoration-line: none;
+            color:white;
+            font-weight: 20px;
+            width:26%;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">
+
+        <img src="Truck-transport1.png"><br><br><br><br>
+        <p>SomEoNe iN tHe cRowD !</p>
+        
+
+    </div>
+    <div class="truct_tag">
+        <h1>Sk Transport</h1>
+    </div>
+    <div class="main_tag">
+        <h3>Online Truck Booking Made Easy To Go</h3>
+    </div>
+    <div class="Gform_btn">
+        <button type="Submit"><a href="https://forms.gle/t8vskzfzZUZYhQYv8">Get Service within Minute</a></button>
+    </div>
+    <div class="mid">
+        <ul class="navbar" type="none">
+            <li><a href= ><b>Home</b></a></li>
+            <li><a href="https://ravsaheb1968.github.io/aboutus/"><b>About Us</b></a></li>
+            <li><a href="https://ravsaheb1968.github.io/service/"><b>Bill Service</b></a></li>
+            <li><a href="https://ravsaheb1968.github.io/trucktype/"><b>Truck Type</b></a></li>
+            <!-- <li><a href="#"><b>FAQ</b></a></li> -->
+        </ul>
+
+    </div>
+    <div class="right">
+        <button type="button"><a href="tel:+919284043773" >Call Now 9284043773 </a></button>
+         
+
+    </div>
+    <!--  it is  log In form of user time restriction we are not use in because lot time in signup and Log IN 
+        <div class="form1">
+        <form action="backend.php">
+            <fieldset>
+                <h1> Sk Transport</h1><br>
+                <input type="text" name="userid" placeholder="phone number or Email"><br><br>
+                <input type="password" name="password" placeholder="Enter your password"><br><br><br>
+                <button class="btn" type="submit">Log In</button>
+                <h4>Don't have an account ? <a href=""><u>sign up</u> </a>
+                </h4>
+            </fieldset>
+        </form>
+    </div> -->
+    <div class="para1">
+        <h2>Sk Transport – India’s most reliable, dedicated and expert online Transport logistics services partner!</h2>
+    </div>
+    <div class="p1">
+        <p>Sk Transport is one of the foremost trucking companies, delivering the plethora of transport services to its
+            esteemed
+            consumers across Gujarat,Mumbai,Ahmednagar,kokan-vibhag. We are the “best-in-class and cost-effective
+            transporter” as defined by our
+            customers and
+            serving this industry for many years.
+        </p>
+    </div>
+
+
+    <div class="p2">
+        <p>We have set high standards in every facet of transportation, and strive to keep raising the bar.
+            With our extensive industry knowledge and skilled team, you can completely focus on your core interests
+            whereas leaving the tiring and complex moving process on us.
+            Time-critical? No worries – Sk Transport will help you!
+        </p>
+    </div>
+    <div class="p3">
+        <p>Our company is equipped with advanced equipment, modern tools, and expertise that enable us to help our
+            consumers with crucial transportation and supply chain solutions. We ensure businesses that they will get
+            excellent-quality, prompt, and secure transportation services irrespective of time-constraint, the heavy
+            load
+            issue, and any other related problem.
+        </p>
+    </div>
+
+    <div class="p4">
+        <p>Being the prime logistics services provider, we believe that people, technology, infrastructure and
+            expertise
+            all work together to help businesses to succeed and henceforth, we are offering the right blend of all
+            these.
+        </p>
+    </div>
+
+    <div class="p5">
+        <p> We are a customer-centric firm and our every action is aimed to offer ease and comfort to them when it comes
+            to booking a truck. Our online truck booking app has tremendously simplified the process of booking a truck.
+            Whether you are looking for the companies of online truck booking Mumbai,
+            Sk Transport would always be your right choice.
+        </p>
+    </div>
+    <div class="p6">
+        <h2>A trucking company – always there for you!</h2>
+        <p>
+
+            Our safe and affordable transport services will help businesses to drive business growth. We have years of
+            experience in
+            handling different types of transportation projects which enable us to help our businesses to focus on their
+            core
+            competencies and business operations. Our trucking company adds value to businesses at every stage, right
+            from
+            delivering advanced truck booking solutions to time-bound deliveries of goods anywhere across the nation.
+
+            We are your trusted partner in your digital transformation journey. We have designed our app while keeping
+            your truck
+            booking needs in mind. No matter whether transportation involves short distance or long-distance, we are
+            committed to
+            delivering your goods in a hassle-free, safe and timely manner. How we can help you?
+        </p>
+    </div>
+    <div class="p7">
+        <h2>Rich industry experience</h2>
+        <p>
+
+            We bring together years of diverse experience in the transport industry.
+            As the best online transport booking company, we know what all it needs to bring you effective and
+            affordable solutions to
+            suit your every transport need.
+        </p>
+    </div>
+    <div class="p8">
+        <h2> On-time, every time</h2>
+        <p>
+
+            We understand the value of time for you as well as for us. That is why we try to deliver your consignment on
+            time, every time.
+        </p>
+    </div>
+    <div class="p9">
+        <h2>
+            Competitive pricing
+        </h2>
+        <p>
+
+            By designing innovative transport solutions that are targeted to your unique business requirements,
+            we have created a pricing strategy that works for everyone. Cost can become a major constraint while hiring
+            our
+            services, but with our most affordable prices, we won’t let this happen with our clients.
+        </p>
+    </div>
+    <div class="p10">
+        <h2>Reliability and safety
+
+        </h2>
+        <p>
+
+            We drive reliability and safety in transport operations through the effective implementation of advanced
+            security tools and
+            technologies. It further helps you to drive efficiency and achieve operational excellence
+        </p>
+    </div>
+    <div class="footer">
+        <div class="f1">
+            <h2>
+                ABOUT OUR COMPANY
+
+            </h2>
+            <p>
+                Sk Transport, a leading transport and logistics service provider is introducing a truly innovative,
+                modern and
+                high-tech online platform to book the truck in a few simple steps.
+
+                With the apt use of advanced technology and rich industry experience, we are delivering customized and
+                economical online transportation and cargo solutions to match your expectations and exceed industry
+                benchmarks.
+            </p>
+        </div>
+        <div class="f2">
+            <h2> CONTACT INFORMATION</h2>
+            <p>Phone : <phone>9284043773</Phone><br>
+            WhatApp No : <phone> 9284043773</phone><br>
+            Email : <email> omkorde.rs2002@gmail.com</email><br>
+            Office Timing : <time> 10.00 Am To 8.00 PM</time><br>
+            Address : Datta mandir chowk,Nimblak,A.Nagar 41411
+            </p>
+            
+            
+        </div>
+        <div class="fh">
+            <h2> TOP CITITES </h2>
+        </div>
+        <div class="f3">
+            <ul class="navbar1" type="none">
+                <li>Navi Mumbai</li>
+                <li>Mumbai</li>
+                <li>Thane</li>
+                <li>Pune</li>
+                <li>Ahmednagar</li>
+                <li>Surat</li>
+                <li>Ahmedabad</li>
+            </ul>
+        </div>
+        <div class="f4">
+            <ul class="navbar2" type="none">
+                <li><a href="#">instagram</a></li>
+                <li><a href="#">Meta</a></li>
+                <li><a href="https://www.youtube.com/channel/UCeJF8gLOOd_8Xz4nrUKTZGg/about">YouTube</a></li>
+                <li><a href="#">Linkdin</a></li>
+            </ul>
+            
+        </div>
+        <div class="f5">
+            <span>Copyright@2022 Sk Transport</span>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
